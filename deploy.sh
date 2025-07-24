@@ -1,6 +1,6 @@
 #!/bin/bash
-cd ~/helloWorld
+cd ~/devops_project
 mvn clean package
-cp target/helloWorld.war /opt/tomcat/webapps/
+cp target/devops_project.war /opt/tomcat/webapps/
 tomcatdown
 tomcatup
