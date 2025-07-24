@@ -1,6 +1,9 @@
 <html>
+  <head>
+    <title>Dynamic Date and Time</title>
+  </head>
   <body>
-    <h2>Hello World!</h2>
-    <h3>DevOps class at RMIT!</h3>
+    <h1>Hello, World!</h1>
+    <p>The current server date and time is: <%= new java.util.Date() %></p>
   </body>
 </html>
